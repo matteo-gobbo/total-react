@@ -1,7 +1,9 @@
+import { RouterProvider } from "@tanstack/react-router";
+import { router } from "./router";
 import "./App.css";
 
 function App() {
-	return <h1>React with Extra Powers</h1>;
+	return <RouterProvider router={router} />;
 }
 
 export default App;
